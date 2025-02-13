@@ -10,10 +10,13 @@ const secondNumber = Number(prompt('Inserisci il secondo numero'))
 // Elaborazione
 
 if (firstNumber > secondNumber){
-    console.log(firstNumber);
+    console.log(`Il primo numero: ${firstNumber} è maggiore del secondo numero: ${secondNumber}`);
+}
+else if (secondNumber > firstNumber){
+    console.log(`Il primo numero: ${firstNumber} è minore del secondo numero: ${secondNumber}`);
 }
 else{
-    console.log(secondNumber);
+    console.log('I numeri sono uguali');
 }
 
 
